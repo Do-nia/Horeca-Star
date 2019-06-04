@@ -1,0 +1,348 @@
+/* common */
+
+button{
+    border: none;
+    border-radius: 60px; 
+    font-family: 'Md';
+    background-color: #fff;
+}
+
+/* header */
+.header{
+    background-image: url(../img/HSHome.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+    /* background-size: contain; */
+}
+.header-logo{
+    padding-top: 45vh;
+    padding-bottom: 10vh;
+    box-sizing: border-box;
+}
+.header-logo img{
+    width: 30vw;
+}
+.header-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+.header-content img{
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.header-content h3{
+    font-size: 1em;
+    font-family: 'LtCn';
+    padding: 20px 0;
+}
+.header-content p{
+    font-size: .5em;
+    font-family: 'Th';
+}
+.header-btn{
+    padding: 40px 0 50px 0;
+}
+.header-btn button{
+    width: 152px;
+    height: 43px;
+    color: #f8b882;
+    font-size: .7em;
+}
+/* about us */
+.about-us{
+    background-color: #edeff1;
+    text-align: center;
+    padding-bottom: 10vh;
+    width: 100%
+}
+.about-us-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+}
+.mission-icon, .vision-icon, .value-icon{
+    position: relative;
+    background-size: cover;
+    height: 30vh;
+    background-blend-mode: overlay;
+    padding: 7vh 0;
+}
+.about-us .mission-icon{
+    background-image: url(../img/ourMissionHome.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.about-us .vision-icon{
+    background-image: url(../img/ourVisionHome.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.about-us .value-icon{
+    background-image: url(../img/ourValuesHome.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.mission-icon img, .vision-icon img, .value-icon img{
+    width: 30%;
+}
+.vision-icon img{
+    padding: 3vh 0;
+}
+.our-vision .btn{
+    position: relative;
+    top: 6%;
+}
+.about-us h2{
+    font-family: "Lt";
+    padding: 6vh 0;
+    font-size: 20px;
+}
+.about-us h3{
+    font-family: "Lt";
+    padding: 4vh;
+}
+.about-us p{
+    font-size: 10.7px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: justify;
+    width: 220px;
+}
+.about-us button{
+    width: 120px;
+    height: 40px;
+    color: #86a64c;
+    font-size: 10px;
+}
+/* newsletter */
+.newsletter{
+    background-image: url(../img/newsletter-back.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+}
+.newsletter h4{
+    font-family: "Md";
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+}
+.newsletter p{
+    padding-bottom: 10vh;
+    font-size: 0.44em;
+}
+input{
+    width: 250px;
+    background: rgba(255,255,255,.5);
+    border: 0;
+    outline: 0;
+    position: relative;
+    left: 20px;
+    border-radius: 60px 0 0 60px ; 
+    padding: 9px 9px 9px 20px; 
+}
+input::placeholder{
+    color: rgb(230, 228, 228);   
+}
+.newsletter button{
+    width: 120px;
+    color: #f8b882;
+    border: 0;
+    outline: 0;
+    border-radius: 60px; 
+    padding: 9px; 
+    margin-bottom: 12vh;
+}
+/* ihoreca */
+.new{
+    margin-bottom: 10vh
+}
+.ihoreca , .customer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ihoreca{
+    padding: 8vh 0 10vh 0;
+}
+.new-img img , .new-img-gr img{
+    border: 2px solid #f8b882;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+.new-img-gr img{
+    border: 2px solid #86a64c;
+}
+.data{
+    text-align: left;
+    font-size: 20px;
+}
+.data h3{
+    padding: 2vh 0;
+    font-size: 1em;
+    font-family: 'Md';
+}
+.data p{
+    font-size: 0.58em;
+    margin-bottom: 6vh;
+    font-family: 'Lt';
+}
+.new button{
+    background-color: #f8b882;
+    color: #fff;
+    width: 120px;
+    padding: 8px;
+}
+.new .gr button{
+    background-color: #86a64c;
+}
+/* brands */
+.brands{
+    background-color: #edeff1;
+    padding: 6vh 0;
+}
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.brands h2{
+    font-family: "Lt";
+    font-size: 20px;
+    margin-bottom: 5vh;
+}
+.brands img{
+    width: 70px;
+    margin: 0 auto;
+}
+.brands .arrow{
+    display: inline-block;
+}
+.brands .arrow img{
+    width: 1.5vw;
+}
+.brands img:nth-child(3){
+    width: 8vw;
+}
+.brands img:nth-child(4){
+    width: 8vw;
+}
+.brands img:nth-child(5){
+    width: 4vw;
+}
+   
+/* tablet */
+@media screen and (max-width:1024px) {
+    .header-content h3{
+        padding: 12px 0;
+    }
+    .header-logo img {
+        width: 50vw;
+    }
+    .header-logo{
+        padding: 13% 0;
+    }
+    .ihoreca , .customer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2vw;
+    }
+    .ihoreca {
+        padding: 6vh 0;
+    }
+    .data{
+        order: 5;
+        text-align: center;
+    }
+    .data p{
+        margin-bottom: 3vh;
+    }
+    .header-btn{
+        padding: 30px 0 32px 0;
+    }
+    .about-us h2{
+    padding: 4vh 0;
+    }
+    .about-us h3 {
+        padding: 2vh;
+    }    
+    .about-us p{
+        margin-bottom: 18px;
+    }
+    .about-us {
+        padding-bottom: 5vh;
+    }
+    .mission-icon, .vision-icon, .value-icon {
+        height: 17vh;
+        padding: 5vh 0;
+    }
+    .mission-icon img, .vision-icon img, .value-icon img {
+        width: 8vw;
+    }
+    .vision-icon img {
+        padding: 2vh 0;
+    }
+    .newsletter p {
+        padding-bottom: 3vh;
+    }
+    .newsletter h4{
+        padding-top: 6vh;
+    }
+    .newsletter button{
+        margin-bottom: 6vh;
+    }
+    .new {
+        margin-bottom: 6vh;
+    }
+    .brands {
+        padding: 4vh 0;
+    }
+    .brands h2 {
+        margin-bottom: 3vh;
+    }
+}
+/* mobile */
+@media screen and (max-width:600px) {
+    .header-logo img {
+        width: 50vw;
+    }
+    .header-logo{
+        padding: 20% 0;
+    }
+    .header-content {
+        grid-template-columns: 1fr;
+    }
+    .about-us-sec{
+        grid-template-columns: 1fr;
+    }
+    .mission-icon img, .vision-icon img, .value-icon img {
+        width: 15vw;
+    }
+    .vision-icon img {
+        padding: 1vh 0;
+    }
+    .our-vision .btn{
+        padding-bottom: 8%;
+    }
+    input{
+        position: unset;
+        border-radius: 60px 60px 60px 60px;
+        margin-bottom: 2vh;
+    }
+    .logos{
+        grid-gap: 6px;
+    }
+    .brands img:nth-child(5) , .brands img:nth-child(6) , .brands img:nth-child(7){
+        display: none;
+    }
+    .brands .arrow img{
+        width: 5vw;
+    }
+    .brands img:nth-child(3){
+        width: 25vw;
+    }
+    .brands img:nth-child(4){
+        width: 22vw;
+    }
+} 

@@ -1,0 +1,144 @@
+/* header */
+.header{
+    background-image: url(../img/aboutus-back.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.header-content{
+    padding: 250px 0;
+}
+.header-content h2{
+    width: 520px;
+}
+
+/* about us */
+.about-us{
+    background-color: #edeff1;
+    text-align: center;
+    padding-bottom: 10vh;
+    width: 100%;
+}
+.about-us-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+}
+.mission-icon, .vision-icon, .value-icon{
+    position: relative;
+    background-size: cover;
+    height: 180px;
+    background-blend-mode: overlay;
+    padding: 7vh 0;
+}
+.about-us .mission-icon{
+    background-image: url(../img/ourMissionHome.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.about-us .vision-icon{
+    background-image: url(../img/ourVisionHome.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.about-us .value-icon{
+    background-image: url(../img/ourValuesHome.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.mission-icon img, .vision-icon img, .value-icon img{
+    width: 6vw;
+}
+.vision-icon img{
+    padding: 3vh 0;
+}
+.about-us h2{
+    font-family: "Lt";
+    padding: 6vh 0;
+    font-size: 20px;
+}
+.about-us h3{
+    font-family: "Lt";
+    padding: 4vh;
+}
+.about-us p{
+    font-size: 10.7px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: justify;
+    width: 220px;
+}
+/* we do */
+.we-do{
+    background-image: url(../img/HSAboutUs.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.we-do h2{
+    font-family: 'ThCn';
+    font-size:50px;
+    text-transform: uppercase;
+    padding: 100px 0;
+    color: #fff;
+}
+/* services */
+.services{
+    background-color: #edeff1;
+}
+.services h3{
+    font-family: 'Lt';
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0;
+}
+.services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gr-img{
+    background-image: url(../img/horecasecond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gr-data{
+    background-color: #82a759;
+    color: #fff;
+    padding: 35px 50px;
+    font-family: 'Lt';
+}
+.gr-data h4{
+    margin-bottom: 20px;
+}
+.gr-data p{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.orng-img{
+    background-image: url(../img/horecathird.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.orng-data{
+    background-color: #da7c4b;
+    color: #fff;
+    padding: 35px 50px;
+    font-family: 'Lt';
+}
+.orng-data h4{
+    margin-bottom: 20px;
+}
+.orng-data p{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.grey-img{
+    background-image: url(../img/horecath.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grey-data{
+    background-color: #a7a7a7;
+    color: #fff;
+    padding: 35px 50px;
+    font-family: 'Lt';
+}
+.grey-data h4{
+    margin-bottom: 20px;
+}
+.grey-data p{
+    margin-bottom: 20px;
+    font-size: 12px;
+}

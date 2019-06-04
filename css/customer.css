@@ -1,0 +1,140 @@
+body{
+    overflow-x:hidden;
+}
+/* header */
+.header{
+    background-image: url(../img/OurCustomers.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.header-content{
+    padding: 250px 0;
+}
+.header-content h2{
+    width: 33vw;
+}
+/* our-cust */
+.our-cust{
+    background-color: #edeff1;
+    padding: 50px 0 ;
+}
+.our-cust h3{
+    text-transform: uppercase;
+    font-family: 'Md';
+    margin-bottom: 5vh;
+}
+.our-cust h4{
+    font-family: "Th";
+    margin-bottom: 70px;
+}
+.our-cust ul{
+    display: flex;
+    justify-content: center;
+}
+.our-cust li{
+    list-style: none;
+    margin-right: 70px;
+    font-family: "Th"
+}
+.our-cust li:nth-child(5){
+    margin-right: 0;
+}
+.our-cust li:hover{
+    background-color: #86a64c;
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.our-cust li:nth-child(1){
+    background-color: #86a64c;
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+/* white */
+.white{
+    background-color: #fff;
+    padding: 50px;
+}
+.slider{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logos{
+    width: 200%;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    animation: slide linear 10s ;
+    animation-iteration-count: infinite;
+    justify-content: flex-start;
+    align-items: center;
+    animation-fill-mode: both;
+}
+.logos img{
+    width:9%;
+    margin: 0 1.75%;
+}
+.white .logos img:nth-child(2) , .white .logos img:nth-child(6){
+    width: 150px;
+}
+.white .logos img:nth-child(4) , .white .logos img:nth-child(8){
+    width: 113px;
+}
+@keyframes slide{
+    0% {left: 0%;}
+    25% {left: -25%;}
+    50% {left: -50%;}
+    75% {left: -75%;}
+    100% {left: -100%;}
+}
+/* cust-say */
+.cust-say{
+    background-color: #86a64c;
+    color: #fff;
+    font-family: "Lt";
+    position: relative;
+}
+.cust-data{
+    padding: 70px 0;
+}
+.cust-logo{
+    margin-bottom: 20px;
+}
+.sign{
+    position: absolute;
+}
+.sign img{
+    width: 150px;
+}
+.cust-say h2 , .cust-say h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.cust-say p{
+    font-size: 15px;
+}
+.cust-say p::after{
+    border-bottom: 2px #fff solid;
+    width: 30px;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.qs{
+    position: absolute;
+    right: 15%;
+    width: 28px;
+}
+.cust-logo img{
+    opacity: .5;
+}
+.cust-logo img:nth-child(2){
+    width: 60px;
+}
+.cust-logo img:hover{
+    width: 70px;
+    opacity: 1;
+}

@@ -1,0 +1,90 @@
+/* header */
+.header{
+    background-image: url(../img/contactus-back.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+}
+.header-content{
+    padding: 250px 0;
+}
+.header-content h2{
+    width: 780px;
+}
+/* map */
+.map{
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 180px;
+    margin-bottom: 50px;
+}
+/* contact */
+
+.contact h3{
+    color: #82a759;
+    font-family: 'Lt';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact h4{
+    color: #7c7c7c;
+    font-family: 'Lt';
+    margin-bottom: 60px;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 80px;
+}
+.info{
+    text-align: left;
+}
+.info h4{
+    margin-bottom: 10px;
+}
+.info p{
+    color: #82a759;
+    font-family: "Lt";
+}
+.ask-us{
+    text-align: left;
+}
+.ask-us h4{
+    margin-bottom: 30px;
+    color: #d75d0e;
+}
+.ask-us input{
+    border: none;
+    outline: 0;
+    width: 49%;
+    position: relative;
+    margin-bottom: 50px;
+    opacity: .5;
+    padding-bottom: 15px;
+    border-bottom: .5px solid #7c7c7c;
+}
+.ask-us .msg input{
+    width: 100%;
+}
+.ask-us i{
+    font-size: 25px;
+    opacity: .2;
+    margin-right: 10px;
+}
+.ask-us i:hover{
+    opacity: 1;
+}
+.ask-us .fa-facebook-square:hover{
+    color: #4267b2;
+}
+.ask-us .fa-google-plus-square:hover{
+    color: #d44839;
+}
+.ask-us .fa-twitter-square:hover{
+    color: #1da1f3;
+}
+.ask-us .fa-envelope{
+    margin-right: 5px;
+    font-size: 17px;
+}
+.ask-us .send{
+    float: right;
+}
